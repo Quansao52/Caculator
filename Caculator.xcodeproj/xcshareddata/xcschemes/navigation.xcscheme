@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B678A7B7287E9C4E00A98D9F"
-               BuildableName = "navigation.app"
+               BuildableName = "Caculator.app"
                BlueprintName = "Caculator"
                ReferencedContainer = "container:Caculator.xcodeproj">
             </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B678A7B7287E9C4E00A98D9F"
-            BuildableName = "navigation.app"
+            BuildableName = "Caculator.app"
             BlueprintName = "Caculator"
             ReferencedContainer = "container:Caculator.xcodeproj">
          </BuildableReference>

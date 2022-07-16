@@ -13,7 +13,6 @@
 		B678A7C3287E9C4E00A98D9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B678A7C1287E9C4E00A98D9F /* Main.storyboard */; };
 		B678A7C5287E9C5000A98D9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B678A7C4287E9C5000A98D9F /* Assets.xcassets */; };
 		B678A7C8287E9C5000A98D9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B678A7C6287E9C5000A98D9F /* LaunchScreen.storyboard */; };
-		B6E3FB942882B1CC00871799 /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E3FB932882B1CC00871799 /* File2.swift */; };
 		B6E3FB972882B9F400871799 /* Caculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E3FB962882B9F400871799 /* Caculate.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		B678A7C4287E9C5000A98D9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B678A7C7287E9C5000A98D9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B678A7C9287E9C5000A98D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6E3FB932882B1CC00871799 /* File2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
 		B6E3FB962882B9F400871799 /* Caculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Caculate.swift; path = ../../../../../Caculate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +60,6 @@
 			children = (
 				B6E3FB952882B9E800871799 /* Extension */,
 				B678A7D1287E9C7700A98D9F /* Controller */,
-				B678A7D0287E9C6F00A98D9F /* Model */,
 				B678A7CF287E9C6700A98D9F /* View */,
 				B678A7BB287E9C4E00A98D9F /* AppDelegate.swift */,
 				B678A7BD287E9C4E00A98D9F /* SceneDelegate.swift */,
@@ -81,18 +78,10 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		B678A7D0287E9C6F00A98D9F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		B678A7D1287E9C7700A98D9F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				B678A7BF287E9C4E00A98D9F /* MainViewController.swift */,
-				B6E3FB932882B1CC00871799 /* File2.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,7 +167,6 @@
 			files = (
 				B6E3FB972882B9F400871799 /* Caculate.swift in Sources */,
 				B678A7C0287E9C4E00A98D9F /* MainViewController.swift in Sources */,
-				B6E3FB942882B1CC00871799 /* File2.swift in Sources */,
 				B678A7BC287E9C4E00A98D9F /* AppDelegate.swift in Sources */,
 				B678A7BE287E9C4E00A98D9F /* SceneDelegate.swift in Sources */,
 			);
