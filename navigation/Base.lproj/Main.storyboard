@@ -150,7 +150,7 @@
                                                         <rect key="frame" x="0.0" y="438" width="280.5" height="99.5"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uF7-H0-8J6">
-                                                                <rect key="frame" x="0.0" y="0.0" width="168" height="99.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="187" height="99.5"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" image="0 number"/>
                                                                 <connections>
@@ -158,7 +158,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vv-gC-Iyq">
-                                                                <rect key="frame" x="168" y="0.0" width="112.5" height="99.5"/>
+                                                                <rect key="frame" x="187" y="0.0" width="93.5" height="99.5"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" image="_dot"/>
                                                                 <connections>
@@ -166,6 +166,10 @@
                                                                 </connections>
                                                             </button>
                                                         </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="9vv-gC-Iyq" firstAttribute="width" secondItem="GVX-jF-3eY" secondAttribute="width" multiplier="1/3" id="ilD-eg-YCv"/>
+                                                            <constraint firstItem="uF7-H0-8J6" firstAttribute="width" secondItem="GVX-jF-3eY" secondAttribute="width" multiplier="2/3" id="spv-53-dB0"/>
+                                                        </constraints>
                                                     </stackView>
                                                 </subviews>
                                             </stackView>
@@ -182,7 +186,7 @@
                                         <rect key="frame" x="280.5" y="0.0" width="93.5" height="537.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORJ-xZ-g4t">
-                                                <rect key="frame" x="0.0" y="0.0" width="93.5" height="107.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="93.5" height="102"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="mul"/>
                                                 <connections>
@@ -190,7 +194,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rPG-bc-iVb">
-                                                <rect key="frame" x="0.0" y="107.5" width="93.5" height="107.5"/>
+                                                <rect key="frame" x="0.0" y="102" width="93.5" height="113"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="sub"/>
                                                 <connections>
@@ -222,7 +226,7 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="2wk-Ge-qXc" firstAttribute="height" secondItem="vMD-BT-LpG" secondAttribute="height" multiplier="0.3" id="Yf0-za-dPg"/>
-                                            <constraint firstItem="ORJ-xZ-g4t" firstAttribute="height" secondItem="vMD-BT-LpG" secondAttribute="height" multiplier="0.2" id="chb-ra-Wyr"/>
+                                            <constraint firstItem="ORJ-xZ-g4t" firstAttribute="height" secondItem="vMD-BT-LpG" secondAttribute="height" multiplier="0.19" id="chb-ra-Wyr"/>
                                             <constraint firstItem="69T-jB-L51" firstAttribute="height" secondItem="vMD-BT-LpG" secondAttribute="height" multiplier="0.3" id="mnF-9o-vQg"/>
                                         </constraints>
                                     </stackView>

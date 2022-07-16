@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var subBtn: UIButton!
     @IBOutlet weak var equalBtn: UIButton!
     @IBOutlet weak var dotBtn: UIButton!
-    var state : Bool = false
+    var state : Bool = true
     let operatorSet : Set = ["*","/","+","-","."]
     override func viewDidLoad() {
         super.viewDidLoad()
