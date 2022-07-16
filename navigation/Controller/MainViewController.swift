@@ -143,8 +143,8 @@ class ViewController: UIViewController {
     }
     @IBAction func equalT(_ sender: Any){
     
-
         let chars = String(format:exTxt.text ?? "")
+        if chars != "" {
         if !operatorSet.contains(String(chars.last!) ) {
         let result = chars.calculate()
         resultTxt.text = "\(round(result.doubleValue*10000)/10000)"
@@ -152,7 +152,7 @@ class ViewController: UIViewController {
        
         else {resultTxt.text = "ERROR"
         }
-        
+        }
 
     }
     @IBAction func dotT(_ sender: Any){
