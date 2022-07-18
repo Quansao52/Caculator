@@ -147,9 +147,14 @@ class ViewController: UIViewController {
         if chars != "" {
         if !operatorSet.contains(String(chars.last!) ) {
         let result = chars.calculate()
-        resultTxt.text = "\(round(result.doubleValue*10000)/10000)"
+            let doubleResult = round(result.doubleValue*10000)/10000
+            //resultTxt.text = ( floor(doubleResult) == doubleResult ) ? "\(floor(doubleResult))" : "\(Int(6))"
+            if doubleResult.isInt { resultTxt.text = "\(Int(doubleResult))" }
+             else
+            {
+                 resultTxt.text = "\((doubleResult))"
+             }
         }
-       
         else {resultTxt.text = "ERROR"
         }
         }
